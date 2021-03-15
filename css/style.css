@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "tanha";
+  src: url("../font/Tanha.ttf") format("ttf"),
+    url("../font/Tanha.woff") format("woff");
+}
+
+* {
+  font-family: "tanha" !important;
+}
+
+body {
+  background-color: #dfdfdf;
+}
+
+.step {
+  width: 60vw;
+  height: 60vh;
+}
+
+.-step-title {
+  direction: rtl;
+  text-align: center;
+  text-align: center;
+  width: 100%;
+  height: 10%;
+  margin-bottom: 1%;
+  padding: 12px 0;
+  background-color: rgba(0, 0, 0, 0.384);
+  box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.37);
+  color: #fff;
+}
+
+.-step-img {
+  border-radius: 5px;
+  width: 100%;
+  height: 85%;
+  overflow: hidden;
+  box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.37);
+}
+
+.-step-img .-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
