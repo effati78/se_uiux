@@ -1,11 +1,17 @@
 @font-face {
-  font-family: "tanha";
-  src: url("../font/Tanha.ttf") format("ttf"),
-    url("../font/Tanha.woff") format("woff");
+  font-family: "iranSans";
+  src: url("../font/IRANSansWeb\(FaNum\).ttf"),
+       url("../font/IRANSansWeb.ttf"),
+       url("../font/IRANSansWeb.woff");
+
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-weight: normal;
 }
 
 * {
-  font-family: "tanha" !important;
+  font-family: "iranSans" !important;
   box-sizing: border-box;
 }
 
@@ -63,4 +69,8 @@ body {
   display: flex;
   align-items: flex-end;
   justify-content: center;
+}
+
+.-ob-con{
+  object-fit: contain !important;
 }
