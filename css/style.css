@@ -74,3 +74,15 @@ body {
 .-ob-con{
   object-fit: contain !important;
 }
+
+.test{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  direction: rtl;
+  background: rgba(0, 0, 0, 0.945);
+  color: #fff;
+  padding: 50px 30px;
+  border-radius: 5px;
+}
